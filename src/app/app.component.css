@@ -1,0 +1,25 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+  
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.increment-btn {
+    background-color: #007bff; /* Blue */
+    color: white;
+}
+  
+.decrement-btn {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
